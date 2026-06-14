@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Analytics Dashboard</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<div class="dashboard">
+
+    <!-- Row 1 -->
+
+    <div class="card metric">
+        <h4>Total Count</h4>
+        <div class="metric-value">487</div>
+    </div>
+
+    <div class="card">
+        <!-- <h4>Language</h4> -->
+        <canvas id="sourceChart"></canvas>
+    </div>
+
+    <div class="card">
+        <!-- <h4>Sales Stage</h4> -->
+        <canvas id="stageChart"></canvas>
+    </div>
+
+    <div class="card">
+        <!-- <h4>Region Split</h4> -->
+        <canvas id="pieChart"></canvas>
+    </div>
+
+    <div class="card metric">
+        <h4>Language</h4>
+        <div class="metric-value">English,Hindi</div>
+    </div>
+
+    <!-- Row 2 -->
+
+    <div class="card span-2">
+        <!-- <h4>Monthly Opportunity Trend</h4> -->
+        <canvas id="stackedChart"></canvas>
+    </div>
+
+    <div class="card span-2">
+        <!-- <h4>Opportunity Size</h4> -->
+        <canvas id="horizontalChart"></canvas>
+    </div>
+
+    <div class="card">
+        <!-- <h4>Conversion Funnel</h4> -->
+        <canvas id="funnelChart"></canvas>
+    </div>
+
+    <!-- Row 3 -->
+
+    <div class="card span-2">
+        <!-- <h4>Revenue by Stage</h4> -->
+        <canvas id="revenueChart"></canvas>
+    </div>
+
+    <div class="card span-2">
+        <!-- <h4>Average Revenue</h4> -->
+        <canvas id="avgRevenueChart"></canvas>
+    </div>
+
+    <div class="card metric">
+        <h4>Sentiment Analysis</h4>
+        <div class="metric-value"></div>
+    </div>
+
+</div>
+
+<script src="charts.js"></script>
+
+</body>
+</html>
