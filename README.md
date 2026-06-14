@@ -7,7 +7,7 @@ A complete end-to-end **Machine Learning + NLP project** that classifies text in
 ## 🌐 Live Demo
 
 🚀 Experience the live application here:  
-👉 **[Click to Open Live App](https://your-live-link-here.com)**
+👉 **[Click to Open Live App](https://rahman-saif.github.io/Whatsapp-Chat-Analysis/)**
 
 ---
 
@@ -23,8 +23,7 @@ It covers the entire ML lifecycle:
 3. **Data Cleaning** – Removing noise from text
 4. **Feature Engineering** – Converting text into numerical vectors
 5. **Model Training** – Training multiple ML algorithms
-6. **Evaluation** – Comparing model performance
-7. **Deployment** – Building a web-based prediction system
+6. **Deployment** – Building a web-based prediction system
 
 ---
 
@@ -60,7 +59,7 @@ It covers the entire ML lifecycle:
 - Random Forest  
 
 ### 🌐 Web Framework
-- Streamlit *(or Flask / FastAPI if used)*  
+- HTML,CSS 
 
 ### 📦 Model Serialization
 - Pickle / Joblib  
@@ -135,13 +134,8 @@ Performance was measured using:
 - Confusion Matrix  
 
 ---
+## 📊 Project Overview : 
+<img width="1920" height="1182" alt="image" src="https://github.com/user-attachments/assets/4c6bb9aa-996e-4564-b0fc-2b77f0e39ce1" />
 
-## 🧪 Prediction System
 
-The trained model predicts sentiment from user input text in real time.
 
-### Example:
-
-```text
-Input: "I absolutely love this product!"
-Output: Positive 😊
